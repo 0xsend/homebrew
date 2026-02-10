@@ -1,26 +1,25 @@
 class Backscraxer < Formula
   desc "CLI tool for ingesting twitterapi.io tweets and media into local SQLite"
   homepage "https://github.com/0xsend/backscraXer"
-  # Template formula in source repo; release workflow writes concrete checksums to tap repo.
-  version "0.0.1"
+  version "0.0.2"
   license "UNLICENSED"
 
   on_macos do
     on_arm do
-      url "https://github.com/0xsend/backscraXer/releases/download/v#{version}/backscraxer-darwin-arm64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/0xsend/backscraXer/releases/download/v0.0.2/backscraxer-darwin-arm64"
+      sha256 "3b1dfa4662e352c9c48abf28f37fb616607334d42014991a3b429ae19cd4fec6"
     end
 
     on_intel do
-      url "https://github.com/0xsend/backscraXer/releases/download/v#{version}/backscraxer-darwin-x64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/0xsend/backscraXer/releases/download/v0.0.2/backscraxer-darwin-x64"
+      sha256 "6761be914ae139f193175dee822364312a31437cb255426e52b899ae2808a7ac"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/0xsend/backscraXer/releases/download/v#{version}/backscraxer-linux-x64"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      url "https://github.com/0xsend/backscraXer/releases/download/v0.0.2/backscraxer-linux-x64"
+      sha256 "52142dfa9931bfef8e480e920a778c4976d4735ae0a3e2853ff9255036b7c617"
     end
   end
 
