@@ -8,19 +8,19 @@ class Backscraxer < Formula
   on_macos do
     on_arm do
       url "https://github.com/0xsend/backscraXer/releases/download/v#{version}/backscraxer-darwin-arm64"
-      sha256 "REPLACE_WITH_ACTUAL_DARWIN_ARM64_SHA256_ON_RELEASE"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
 
     on_intel do
       url "https://github.com/0xsend/backscraXer/releases/download/v#{version}/backscraxer-darwin-x64"
-      sha256 "REPLACE_WITH_ACTUAL_DARWIN_X64_SHA256_ON_RELEASE"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/0xsend/backscraXer/releases/download/v#{version}/backscraxer-linux-x64"
-      sha256 "REPLACE_WITH_ACTUAL_LINUX_X64_SHA256_ON_RELEASE"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
     end
   end
 
